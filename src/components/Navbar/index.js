@@ -23,10 +23,10 @@ export default function Navbar() {
               <li className="nav-item">
                 <a className="nav-link active">
                 <Link
-              to="/about"
+              to="/home"
               className={
                
-                window.location.pathname === "/about"
+                window.location.pathname === "/home"
                   ? "nav-link active"
                   : "nav-link"
               }
@@ -67,7 +67,7 @@ export default function Navbar() {
                 </a>
               </li>
             </ul>
-            <form className="d-flex">
+            {/* <form className="d-flex">
               <input
                 className="form-control me-2"
                 type="search"
@@ -77,7 +77,7 @@ export default function Navbar() {
               <button className="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </nav>
